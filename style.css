@@ -317,6 +317,10 @@ section .title::after{
 }
 
 /* projects section styling */
+.projects a{
+    color: lightgreen
+}
+
 .projects, .experience{
     color:#fff;
     background: #111;
@@ -332,9 +336,10 @@ section .title::after{
     color: rgb(185, 0, 0);
 }
 .projects .projects-content .card{
-    width: calc(33% - 20px);
+    width: calc(50% - 15px);
     background: #222;
     text-align: center;
+    margin-bottom: 10px;
     border-radius: 6px;
     padding: 20px 25px;
     cursor: pointer;
