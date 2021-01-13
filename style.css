@@ -336,6 +336,7 @@ section .title::after{
     color: rgb(185, 0, 0);
 }
 .projects .projects-content .card{
+    width: -moz-calc(50% - 15px);
     width: calc(50% - 15px);
     background: #222;
     text-align: center;
